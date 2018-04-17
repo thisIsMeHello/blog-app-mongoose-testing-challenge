@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: xKc//LzytXWdcbFA1iC+f6nglevd2US1ybQ/xulcZHNbCzKQubTRNEPqgGUGvJlxcyV2EclhcCJAwfL7z2nTlpugGZADKNOgCYScjNPRifZ/+7Sa2UIyTD4PqykMEx51BlyJGUhs7ijNtl+vOo75wOxgneKGfpeFlW2/AT99ODDuZOw2V6JE7WIOjJBWO9QGwrkxLao++Wu6lEBWhYvrCkdVIC3vzFs2Qn4AsOOx8hwkpk4kqckxqrnpM1dHGfEyVOqx2+OtltfxifgmHs7248E0fK66up+CbHshqrpLD+U5744tQnduA9xwxl9G9UwhcReSF6GbACPBPAtimGKNBhVOuaA+MoYOvA8g/Wj335BU4YRhgR+QFUI2qmDB9HR0qK1W1/4PWnx0Xj9P1+Si92GNqAReddB/FIcv8+bNb2A20jR8ys9KEHXOrXXO5VVI1un9SSe+dXWLVcgmzUuFD0IOcxd/+G8eR72PE9s3xEpJDtZrcbLqIh1dSA8aJTukSQjrx8sbBR/GB4LfHvitLPROUKauJG1gc3WpwgXSN5IGuzEsLOcZVLY/uLHtrtanVbgRBsLb1H7BAE4VDCHZu7IrmGX76qkFWF+kYegGPNQodyUreKC6i5+8Q9mJ9tIMqdz6Q042EqurXd/udTnm9OhsvkPwYzY+40PlP2/7d4U=
+  app: vast-retreat-73518
+  on:
+    repo: thisIsMeHello/blog-app-mongoose-testing-challenge
